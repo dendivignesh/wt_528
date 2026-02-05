@@ -3,40 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic Elements & Web Storage API</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="script.js" defer></script> 
+    <title>LAB - 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href =" https :// cdn. jsdelivr . net/ npm/ tailwindcss@2.2.19/ dist / tailwind . min. css" rel=" stylesheet ">
 </head>
-<body >
-    <header>
-        <h1>Semantic Elements, Media Queries, CSS3 and Web Storage API</h1>
-        <button id="theme-toggle" class="mt-4 px-6 py-8 bg-pink-500 text-white rounded hover:bg-red-600">Switch Theme</button>
-    </header>
+<body>
+
+<div class="content">
     <main>
-        <article class="w-full border-t-8 border-purple-400 shadow-lg rounded p-4 mb-6">
-            <h1>CSE E</h1>
+        <header>
+            <h1>Semantic Elements, Media Storage, CSS & WebStorage APIs</h1>
+            <button id="btn">Switch Theme</button>
+        </header>
+
+        <article>
+            <h2 id="line">CSE E</h2>
             <p>Bachelor of Technology, SNIST</p>
         </article>
-        <section id="summary">
-            <h3>Professional Summary</h3>
-            <p>An Eight semesters degree program</p>
+
+        <section>
+            <h3 id="line">Professional Summary</h3>
+            <p>An Eight Semesters Degree Program</p>
+            <p>40+ subjects, Labs, Internals, Externals, Assignments, Attendance...</p>
+            <p><b>Core Subjects:</b> CN, OOPS, DBMS, OS</p>
+
+            <h4 id="line">Tech Stack</h4>
+            <p><b>Frontend:</b> JavaScript, React.js</p>
+            <p><b>Database:</b> MySQL, MongoDB</p>
+            <p><b>Web Technologies:</b> HTML, CSS, JavaScript</p>
+            <p><b>Version Control:</b> Git</p>
         </section>
-        <section id="expertise">
-            <h3>Core Expertise</h3>
-            <ul class="list-disc pl-5">
-                <li>1.C and Data Structures</li> 
-                <li>2.Python</li>
-                <li>3.Java</li>
-                <li>4.AI and ML</li>
-                <li>5.Fullstack - React</li>
-            </ul>
-        </section>
+
         <aside class="storage-status">
-            <strong>Web Storage API Note:</strong>
-            <p id="storage-msg">Setting theme...</p>
+            <strong id="line">Web Storage API Note:</strong>
+            <p id="storage-msg"></p>
         </aside>
+
+        <footer>&copy; 2026 WT LAB - Semantic Elements</footer>
     </main>
-    <footer>&copy; 2026 WT LAB - Semantic Elements</footer>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
