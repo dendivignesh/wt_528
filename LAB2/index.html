@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailWind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head> 
+
+<body class="bg-gray-100 text-gray-900 min-h-screen flex items-center justify-center">
+
+<div class="content w-full max-w-3xl bg-white shadow-lg rounded-lg p-6">
+    <main class="space-y-6">
+
+        <header class="flex items-center justify-between border-b pb-4">
+            <h1 class="text-2xl font-bold text-blue-600">
+                Semantic Elements, Media Storage, CSS & WebStorage APIs
+            </h1>
+            <button
+                id="btn"
+                class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+            >
+                Switch Theme
+            </button>
+        </header>
+
+        <article class="space-y-2">
+            <h2 class="text-xl font-semibold border-l-4 border-blue-500 pl-2">
+                CSE E
+            </h2>
+            <p class="text-gray-700">Bachelor of Technology, SNIST</p>
+        </article>
+
+        <section class="space-y-3">
+            <h3 class="text-lg font-semibold border-l-4 border-blue-500 pl-2">
+                Professional Summary
+            </h3>
+            <p>An Eight Semesters Degree Program</p>
+            <p>40+ subjects, Labs, Internals, Externals, Assignments, Attendance...</p>
+            <p>
+                <span class="font-semibold">Core Subjects:</span>
+                CN, OOPS, DBMS, OS
+            </p>
+
+            <h4 class="text-md font-semibold mt-4 border-l-4 border-blue-500 pl-2">
+                Tech Stack
+            </h4>
+            <p><span class="font-semibold">Frontend:</span> JavaScript, React.js</p>
+            <p><span class="font-semibold">Database:</span> MySQL, MongoDB</p>
+            <p><span class="font-semibold">Web Technologies:</span> HTML, CSS, JavaScript</p>
+            <p><span class="font-semibold">Version Control:</span> Git</p>
+        </section>
+
+        <aside class="storage-status bg-gray-50 border border-gray-200 rounded p-4">
+            <strong class="block mb-1 text-blue-600">
+                Web Storage API Note:
+            </strong>
+            <p id="storage-msg" class="text-sm text-gray-700"></p>
+        </aside>
+
+        <footer class="text-center text-sm text-gray-500 border-t pt-4">
+            &copy; 2026 WT LAB - Semantic Elements
+        </footer>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
